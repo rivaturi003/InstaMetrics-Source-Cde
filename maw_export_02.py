@@ -6,7 +6,7 @@ from pyspark.sql import SQLContext
 import boto3
 import json 
 
-schemaRegistryAddr = "http://avro-schema-registry.aws.shave.io:8081"
+schemaRegistryAddr = "http://maw.io:8081"
 
 # subscribe to topic 
 df = spark\
